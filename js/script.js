@@ -15,7 +15,7 @@ add.addEventListener("click", () => {
 });
 */
 addEventListener("keydown", (event) => {
-    if(event.key == " "){
+    if((event.key == "a") && (event.ctrlKey)){
         output.innerHTML++;
     }
     if(event.key == "Backspace"){
